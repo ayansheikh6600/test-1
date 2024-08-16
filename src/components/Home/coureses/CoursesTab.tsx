@@ -40,7 +40,7 @@ const CoursesTab: React.FC = () => {
       <h2 className="text-center text-4xl font-bold leading-normal mb-6">
         Enroll Now To Access Iblossom Courses
       </h2>
-      <div className="sm:container mx-auto flex overflow-x-auto space-x-2 mb-4 scrollbar-thin">
+      <div className="sm:container mx-auto flex justify-between border-b-4  overflow-x-auto space-x-2 mb-4 scrollbar-thin">
         <div
           className={`cursor-pointer p-2 rounded-t-lg transition duration-300 whitespace-nowrap ${
             activeTabKey === "all"
