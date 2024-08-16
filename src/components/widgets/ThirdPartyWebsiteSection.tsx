@@ -4,7 +4,7 @@ import React from 'react'
 
 const ThirdPartyWebsiteSection = () => {
     return (
-        <div className="sm:container p-2 sm:p-0 mx-auto py-[20px] gap-10 flex flex-col">
+        <div className="sm:container  mx-auto py-[20px] gap-10 flex flex-col px-3">
 
             <div className='mt-6'>
                 <h2 className='text-center  text-4xl font-bold leading-normal mb-6'>
@@ -17,16 +17,14 @@ const ThirdPartyWebsiteSection = () => {
                     </div>
                     <div className='p-2 flex flex-col justify-between'>
 
-                        <p className='leading-8'><span className='font-bold mr-2'>Welcome to Your Exciting Learning Adventure!</span>
-                        Get ready to embark on a journey of discovery and growth with iBlossomLearn! Imagine a world where learning is fun, interactive, and tailored just for you. Our exclusive learning partnerships bring you captivating lessons across various subjects, designed to spark your curiosity and ignite your passion for knowledge.
-                        Each activity is a step toward mastering new skills and uncovering fascinating facts about the world around you. You will find yourself engaged in dynamic, multimedia-rich content that makes learning feel like an adventure. From solving challenging problems to exploring new concepts, every moment will be filled with excitement and discovery.
-                        Are you ready to start this incredible journey? Click the link below to access your personalized learning experience and let the adventure begin. Your path to success and endless possibilities awaits!
+                        <p className='leading-8'><span className='font-bold mr-2'>iBlossomLearn Essential Pathways:-</span>
+                            Welcome to iBlossomLearn Essential Pathways, an exclusive integration of IXL within our iBlossomLearn curriculum. This advanced program is designed to provide students with a comprehensive and engaging educational experience, blending core academic subjects with personalized skill-building activities. Through IXL's interactive and adaptive learning platform, students receive targeted practice in Math, Language Arts, Science, and Social Studies, ensuring they master essential concepts and skills.
                         </p>
 
                         <div className='rounded-3xl border-2 border-primary w-full mt-5'>
-                        <button className='bg-primary p-2 rounded-3xl px-5 border-4 text-[12px] lg:text-base text-white border-white w-full'>
+                            <button className='bg-primary p-2 rounded-3xl px-5 border-4 text-[12px] lg:text-base text-white border-white w-full'>
                                 <Link href={"/contact"} >
-                                Click Here To Continue your Learning Adventure</Link>
+                                    Click Here To Continue your Learning Adventure</Link>
                             </button>
                         </div>
 
@@ -46,17 +44,17 @@ const ThirdPartyWebsiteSection = () => {
 
                     <div className='p-2 flex flex-col justify-between'>
 
-                        <p className='leading-8'><span className='font-bold mr-2'>Welcome to Your Exciting Learning Adventure!</span>
-                        Get ready to embark on a journey of discovery and growth with iBlossomLearn! Imagine a world where learning is fun, interactive, and tailored just for you. Our exclusive learning partnerships bring you captivating lessons across various subjects, designed to spark your curiosity and ignite your passion for knowledge.
-                        Each activity is a step toward mastering new skills and uncovering fascinating facts about the world around you. You will find yourself engaged in dynamic, multimedia-rich content that makes learning feel like an adventure. From solving challenging problems to exploring new concepts, every moment will be filled with excitement and discovery.
-                        Are you ready to start this incredible journey? Click the link below to access your personalized learning experience and let the adventure begin. Your path to success and endless possibilities awaits!
+                        <p className='leading-[20.5px]'><span className='font-bold mr-2'>iBlossomLearn Comprehensive:</span>
+                            Welcome to iBlossomLearn Comprehensive, an exclusive integration of Miacademy within our iBlossomLearn curriculum. This advanced program provides a comprehensive and engaging educational experience by blending core academic subjects such as Math, Language Arts, Science, and Social Studies with exciting enrichment activities. Students benefit from interactive, multimedia-rich lessons, including videos, games, quizzes, and hands-on projects, making learning both fun and effective. Personalized learning paths ensure that every student receives the necessary support and challenges to succeed, while detailed progress monitoring and reporting tools help parents and educators track student performance and identify areas for improvement.
+
+                            iBlossomLearn Comprehensive also offers extensive supplemental resources, such as printable worksheets, educational games, and additional activities to reinforce learning. The user-friendly interface allows students to easily access lessons and assignments, and with 24/7 access, they can learn at their convenience, fitting education seamlessly into their schedules. In addition to core subjects, the program includes a variety of enrichment courses and electives, allowing students to explore new interests and develop additional skills. iBlossomLearn Comprehensive is more than just a curriculum; it is an immersive educational journey designed to inspire and empower students, preparing them for academic success and lifelong learning.
 
                         </p>
 
                         <div className='rounded-3xl border-2 border-primary w-full mt-5'>
-                        <button className='bg-primary p-2 rounded-3xl px-5 border-4 text-[12px] lg:text-base text-white border-white w-full'>
+                            <button className='bg-primary p-2 rounded-3xl px-5 border-4 text-[12px] lg:text-base text-white border-white w-full'>
                                 <Link href={"/contact"}>
-                                Click Here To Continue your Learning Adventure</Link>
+                                    Click Here To Continue your Learning Adventure</Link>
                             </button>
                         </div>
 
@@ -81,16 +79,15 @@ const ThirdPartyWebsiteSection = () => {
                     </div>
                     <div className='p-2 flex flex-col justify-between'>
 
-                        <p className='leading-8'><span className='font-bold mr-2'>Welcome to Your Exciting Learning Adventure!</span>
-                        Get ready to embark on a journey of discovery and growth with iBlossomLearn! Imagine a world where learning is fun, interactive, and tailored just for you. Our exclusive learning partnerships bring you captivating lessons across various subjects, designed to spark your curiosity and ignite your passion for knowledge. 
-                        Each activity is a step toward mastering new skills and uncovering fascinating facts about the world around you. You will find yourself engaged in dynamic, multimedia-rich content that makes learning feel like an adventure. From solving challenging problems to exploring new concepts, every moment will be filled with excitement and discovery. 
-                        Are you ready to start this incredible journey? Click the link below to access your personalized learning experience and let the adventure begin. Your path to success and endless possibilities awaits!
+                        <p className='leading-[20.5px]'><span className='font-bold mr-2'>iBlossomLearn Word Wonders</span>
+                            Welcome to the iBlossomLearn Word Wonders course, an exclusive integration of LiteracyPlanet within our iBlossomLearn curriculum. This course is designed to elevate students' literacy skills through engaging, interactive, and comprehensive activities that foster a love for reading and writing. Covering all aspects of literacy, including reading, writing, spelling, grammar, and comprehension, the curriculum meets educational standards and helps students develop strong foundational skills. Through LiteracyPlanet's interactive platform, students engage in fun and effective activities such as games, quizzes, and multimedia content, catering to different learning styles and keeping students motivated.
+                            The iBlossomLearn Word Wonders course adapts to each student's learning pace and style, offering personalized pathways that ensure the right level of challenge and support. Parents and educators can track students' progress with detailed reports and analytics, facilitating targeted intervention and support. The course provides an extensive library of digital books, stories, and reading materials to cater to different interests and reading levels, along with skill-building exercises focused on spelling, grammar, and writing. With a user-friendly platform and 24/7 access, students can practice their literacy skills anytime, anywhere, fitting learning into their busy schedules. The iBlossomLearn Word Wonders course is dedicated to nurturing proficient and enthusiastic readers and writers, preparing students for academic success and a lifelong love of learning.
                         </p>
 
                         <div className='rounded-3xl border-2 border-primary w-full mt-5'>
                             <button className='bg-primary p-2 rounded-3xl px-5 border-4 text-[12px] lg:text-base text-white border-white w-full'>
                                 <Link href={"/contact"}>
-                                Click Here To Continue your Learning Adventure</Link>
+                                    Click Here To Continue your Learning Adventure</Link>
                             </button>
                         </div>
 
