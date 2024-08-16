@@ -158,13 +158,10 @@ export default function LearningMain() {
         >
           <h2
             style={{
-              fontWeight: 400,
-              textAlign: "center",
-              color: "black",
-              textTransform: "uppercase",
-              fontSize: "35px",
+              
               fontFamily: "Latao",
             }}
+            className="text-2xl sm:text-3xl md:text-4xl font-normal text-center text-black uppercase "
           >
             {selectLabelData?.categoryDetails?.title
               ? courseLevelData?.data[0]?.categoryDetails?.title
@@ -178,20 +175,15 @@ export default function LearningMain() {
             </EllipsisMiddle>
           </p>
           {/*//! label button */}
-          <div className="flex lg:hidden md:hidden xl:hidden absolute -top-8 lg:top-0 left-0  ">
-            {/* <PaypalCheckoutByCourse courseData={courseFirstData} /> */}
 
-            <button
-              onClick={() => showModal(categoryId)}
-              className="uppercase inline-flex items-center gap-1 p-1 rounded-md text:lg md:text-2xl text-[#1C3052] text-center font-bold"
-            >
-              {" "}
-              <IoIosArrowDropdown /> Level
-            </button>
-          </div>
+
+          
+
+
+
           <div className="items-start mt-3 lg:mt-5 md:mt-3 xl:mt-7">
             {/*//! label section */}
-            <div className="hidden  lg:flex flex-col w-full">
+            <div className="   w-full">
               <div className="flex relative flex-col justify-self-start gap-3 mt-3 w-full mr-2 ">
                 <hr />
                 {courseLevelData?.data?.map(
@@ -255,7 +247,7 @@ export default function LearningMain() {
                                       <h1 className="text-[#FB8500]">
                                         ${course?.price}
                                       </h1>
-                                      <div className="flex justify-between gap-2 px-2">
+                                      <div className="sm:flex justify-between gap-2 px-2">
                                         <h1
                                           className="bg-[#5371FB] p-2 w-full hover:bg-[#4365fb] cursor-pointer  text-white font-bold rounded-md"
                                           onClick={() => {
@@ -267,7 +259,7 @@ export default function LearningMain() {
                                           Buy Now
                                         </h1>
                                         <h1
-                                          className="bg-[#5371FB] w-full p-2 hover:bg-[#4365fb] cursor-pointer  text-white font-semibold rounded-md"
+                                          className="bg-[#5371FB] mt-3 sm:mt-0 w-full p-2 hover:bg-[#4365fb] cursor-pointer  text-white font-semibold rounded-md"
                                           onClick={() => {
                                             router.push(
                                               `/course/milestone/${course._id}?category=${course?.category?._id}?categoryName=${course?.category?.title}?courseName=${course.title}`

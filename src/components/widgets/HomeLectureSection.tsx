@@ -51,7 +51,7 @@ const HomeLectureSection = () => {
 
   return (
     <div>
-      <div className='sm:container mx-auto'>
+      <div className='sm:container mx-auto px-3'>
         {/* Grade Tabs */}
         <div className="flex justify-center mb-4 overflow-x-auto">
           <div className="flex space-x-2">

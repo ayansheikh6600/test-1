@@ -12,14 +12,18 @@ const MeetCard = ({ ...props }) => {
                 <h3 className='text-lg font-semibold truncate'>
                     {title || "DR. Sabah"}
                 </h3>
-                <p className='text-sm text-gray-700 line-clamp-2'>
+                {desc ? desc?.map((item: any, index: any) => {
+                    return <p className='text-base text-gray-700 line-clamp-2' key={index}>{item}</p>
+
+                }) : <p className='text-base text-gray-700 line-clamp-2'>
                     {desc || "Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-                </p>
+                </p>}
                 {
                     email ? <p className='text-sm text-gray-600 truncate'>
-                    {email || "Email"}
-                </p>:""
+                        {email || "Email"}
+                    </p> : ""
                 }
+           
             </div>
         </div>
     );

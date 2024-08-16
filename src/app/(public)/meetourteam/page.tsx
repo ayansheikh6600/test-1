@@ -9,54 +9,56 @@ const page = () => {
     const Administartions = [
         {
             title: "Dr. Sabah Alfaramawy",
-            desc: "School Director DEAN Of Curricilum & Instructor",
+            desc: ["School Director ", "DEAN Of Curricilum & Instruction"],
             image: "/about_Owner.jpeg",
             email: "dr.sabah-elfaramawy@iblossomlearn.org"
         },
         {
             title: "Tung Hoang",
-            desc: "Cheif Data Support Speacialist, Student Service Coordinator (Registrar)",
+            desc: ["Chief Data Support Speacialist", "Student Service Coordinator (Registrar)"],
             image: "/tuang1.png",
             email: "tung.hoang@iblossomlearn.org"
         },
 
         {
             title: "Gilles Konan Kouadio",
-            desc: "Communication & Marketing Family Engagement Coordinator",
+            desc: ["Communication & Marketing", "Family Engagement Coordinator"],
             image: "/tuang2.png",
             email: "gilles.k.kouadio@iblossomlearn.org"
         },
         {
             title: "Usha",
-            desc: "Technology Support Specialist",
-            email: "techsupport@iblossomlearn.org"
+            desc: ["Technology Support Specialist"],
+            email: "techsupport@iblossomlearn.org",
+            image: "/dummyFemal.png"
         },
 
     ]
     const Academics = [
         {
             title: "Meah Hill",
-            desc: "Academic Advisor SEL Support Specialist",
+            desc: ["Academic Advisor", "SEL Support Specialist"],
             image: "/meahHill.png"
         },
         {
             title: "Barbra Morgan",
-            desc: "SPED Resource Student Support Specialist",
+            desc: ["SPED Resource", "Student Support Specialist"],
             image: "/barbra.png"
         },
         {
             title: "Gloria Boman",
-            desc: "STEM",
+            desc: ["STEM"],
+            image: "/dummyFemal.png"
 
         },
         {
             title: "Ola Adeyemi-Bajo",
-            desc: "English, Writing",
-
+            desc: ["English, Writing"],
+            image: "/dummyFemal.png"
         },
         {
             title: "Christopher Peters",
-            desc: "Humanities",
+            desc: ["Humanities"],
 
         },
 
@@ -64,17 +66,17 @@ const page = () => {
     const Teachers = [
         {
             title: "Dr. Shawky Salah Alfaramawy",
-            desc: "Arabic, Hausa, Amharic, Hebrew",
+            desc: ["Arabic, Hausa, Amharic, Hebrew"],
             image: "/shawky.png"
         },
         {
             title: "Felicte Acho",
-            desc: "French, ESOL",
+            desc: ["French, ESOL"],
             image: "/falicite.png"
         },
         {
             title: "Abdul-Mo'ty Muhammad Shaheen",
-            desc: "Spanish, Italian, Russian, German",
+            desc: ["Spanish, Italian, Russian, German"],
 
         },
 

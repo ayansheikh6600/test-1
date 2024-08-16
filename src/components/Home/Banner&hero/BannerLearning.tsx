@@ -124,17 +124,17 @@ const BannerLearning: React.FC<BannerLearningProps> = ({
   }
   return (
     <div className="">
-      <div className="object-cover  bg-[#F7EEE5] overflow-hidden -z-10 w-[100%] h-[50vh] lg:h-[70vh] 2xl:h-[45.75rem] -mt-[7rem] grid grid-cols-2 items-center">
+      <div className="object-cover  bg-[#F7EEE5] overflow-hidden -z-10 w-[100%] flex flex-col-reverse sm:h-[50vh] lg:h-[70vh] 2xl:h-[45.75rem] -mt-[7rem] sm:grid grid-cols-1 sm:grid-cols-2 items-center">
 
         <div className="px-4 flex flex-col gap-5">
-          <h1 className="lg:text-6xl md:text-4xl text-3xl">
+          <h1 className="lg:text-6xl md:text-4xl sm:text-3xl text-2xl">
           Build a healthier foundation for lifelong learning
           </h1>
           <p className="text-lg">
           At iBLossomLearn, we prioritize building a healthier foundation for lifelong learning. Through our comprehensive curriculum and dedicated support, we empower students to develop essential skills and habits that foster academic success and personal growth well beyond their schooling years. With iBLossomLearn, students are equipped with the tools and mindset needed to thrive in an ever-changing world.
           </p>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-end pl-3">
           <Image src={LearningPageImage2} alt=""/>
         </div>
 
